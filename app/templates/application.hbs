@@ -1,3 +1,9 @@
 <h2 id="title">Welcome to Ember</h2>
-
+<br>
+<p>This demo renders the query param "foo" to the template if it exists, otherwise it says "no QPs exist".</p>
+<p>Click the "Add a QP" button to see the value get updated and the model refreshed. Click the "add a QP and refresh" button to see the value get updated without the model receiving the correct query param upon refresh. In particular, this should work when `refreshModel` is set to false, allowing you to programmatically refresh the model using refresh() only when needed instead of every time the query param is updated.</p>
+<br>
 {{outlet}}
+<br>
+<br>
+<a href="/">Reset QueryParams</a>
