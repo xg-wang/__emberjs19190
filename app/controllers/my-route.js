@@ -8,6 +8,10 @@ export default Controller.extend({
 
     refresh() {
       return true;
+    },
+
+    reset() {
+      return true;
     }
   }
 });
